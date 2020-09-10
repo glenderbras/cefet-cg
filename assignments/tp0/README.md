@@ -60,7 +60,7 @@ ambiente de desenvolvimento no fundo.
 
 ### Pontuação e item extra
 
-Configurar o ambiente e enviar a _screenshot_ vale 1 ponto. Contudo,
+Configurar o ambiente e enviar a _screenshot_ será avaliado dentro dos 10 pontos de Exercícios. Contudo,
 você pode também ganhar **1 delicioso e importante ponto extra** se você:
 
 1. **Instalar** também a [biblioteca SOIL][soil-search] que possibilita
