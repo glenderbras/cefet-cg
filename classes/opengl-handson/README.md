@@ -11,7 +11,6 @@
 1. _Clipping_ (recorte)
 1. Cores
 1. Primitivas geométricas
-1. Lista de exercícios 1
 
 ---
 <!-- {"layout": "centered-horizontal"} -->
@@ -613,11 +612,6 @@ Que tipos de objetos podemos desenhar?
   - `glVertex2f(x, y)` = `glVertex3f(x, y, 0)`
   - `glColor` é análogo
     - mas não há cores com apenas 2 componentes (_i.e._, `glColor2f`)
-
----
-# Lista de exercícios 1
-
-Link via **Moodle**
 
 ---
 # Referências
