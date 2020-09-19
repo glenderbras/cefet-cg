@@ -53,7 +53,7 @@ serão avaliadas de acordo com a **dificuldade de implementação**, o
 **efeito obtido** dentro do jogo e a **qualidade da implementação**.
 Implementando-as, você pode obter até **125%** do valor total do trabalho! :3
 
-**A porcentagem referente aos itens extras será calculada sobre da pontuação que você obteve nos itens básicos.
+**A porcentagem referente aos itens extras será calculada sobre da pontuação que você obteve nos itens básicos.**
 
 Exemplos de funcionalidades com suas respectivas pontuações **máximas** são
 mostrados a seguir:
