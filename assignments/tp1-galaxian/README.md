@@ -46,12 +46,13 @@ reiniciar e encerrar o jogo.
 
 A lógica do jogo implementada, o uso de textura, a movimentação dos inimigos,
 os tiros (jogador e inimigos), cálculo de colisões, a interação do teclado
-e um vídeo equivalem a um total de **75%** da nota do trabalho.
+e um vídeo equivalem a um total de **90%** da nota do trabalho.
 Para conseguir mais pontos, você pode
 implementar algumas das funcionalidades adicionais. Essas funcionalidades
 serão avaliadas de acordo com a **dificuldade de implementação**, o
 **efeito obtido** dentro do jogo e a **qualidade da implementação**.
-Implementando-as, você pode obter até **125%** da pontuação do trabalho! :3
+Implementando-as, você pode obter até **125%** do valor total do trabalho! :3
+A porcentagem referente aos pontos extras será calculada em cima da pontuação que você obteve nos itens básicos
 
 Exemplos de funcionalidades com suas respectivas pontuações **máximas** são
 mostrados a seguir:
@@ -141,15 +142,8 @@ Outros descuidos também o farão **perder pontos no trabalho**, como:
   a seguir);
 - Baixa legibilidade/organização do código;
 - Baixa qualidade da implementação;
-- Entregar fora do prazo. Cada dia de atraso reduz o valor máximo de nota
-  de acordo com a equação abaixo, de modo que `x` representa o número de
-  dias de atraso e `f(x)` equivale à penalidade percentual da nota:
-
-  ![Fórmula de penalidade por atraso](../../images/penalidade-por-atraso.png)
-  - Isso implica que 1 ou 2 dias de atraso são pouco penalizados
-  - E após 5 dias de atraso, o trabalho vale 0
-  - _Seeing is believing_:
-    https://www.google.com.br/search?q=y%3D(2%5E(x-2)%2F0.16)%2Cy%3D100
+- Entregar fora do prazo. Cada dia de atraso penaliza sua nota final em 5% 
+até o 7º dia. Após 7 dias de atraso seu trabalho vale apenas metade dos pontos.
 
 ## O que deve ser entregue
 
@@ -160,11 +154,10 @@ seguintes itens:
 2. Todo o programa fonte, com makefiles e bibliotecas necessárias para a
    compilação e execução do programa;
 3. O arquivo executável do jogo;
-4. Um arquivo README contendo (a) instruções para a compilação e execução, e
-   (b) a lista de itens adicionais implementados em seu jogo (via formulário
-   do Google que será enviado)
+4. Um arquivo README.doc contendo (a) instruções para a compilação e execução, e
+   (b) a lista de itens adicionais implementados em seu jogo;
 5. Um link para um vídeo curto (30 a 60s) no YouTube mostrando seu jogo
    implementado. Faça um vídeo curto!
 
-Qualquer dúvida, entre em contato com o professor ou com o/a monitor(a).
+Qualquer dúvida, entre em contato com o professor.
 Ou então acrescente a sua interpretação no arquivo README e mãos à obra!
