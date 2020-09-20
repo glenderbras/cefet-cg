@@ -16,12 +16,10 @@
 <!-- {"layout": "section-header", "slideClass": "display-list", "slideHash": "display-lists"} -->
 # Display Lists
 
-- Revendo o exercício
 - Como armazenar objetos para desenho
 
 ---
 <!-- {"layout": "regular"} -->
-## Exercício 2 da lista
 
 ![](../../images/display-lists.png) <!-- {p:.centered} -->
 
@@ -313,7 +311,7 @@ void desenhaMinhaCena() {
   - png
   - jpg
   - bmp etc.
-- Para baixar e ler a documentação: http://lonesock.net/soil.html
+- Para baixar e ler a documentação: https://github.com/SpartanJ/SOIL2/blob/master/README.md
 
 *[SOIL]: Simple OpenGL Image Library*
 
