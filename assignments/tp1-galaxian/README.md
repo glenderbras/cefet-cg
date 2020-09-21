@@ -123,11 +123,13 @@ explicar seu raciocínio. Portanto, organize-o! Também não é necessário
 comentar o código inteiro, mas o faça quando sentir necessidade de uma
 explicação adicional à sua lógica.
 
-Seu trabalho pode ser feito individual ou em duplas e deve ser produzido
-integralmente por você/dupla. Se recursos de terceiros forem usados
+Seu trabalho pode ser feito em duplas ou trios e deve ser produzido
+integralmente pelos integrantes. Se recursos de terceiros forem usados
 (e.g., imagens, músicas, efeitos sonoros), coloque links para elas na
 documentação. A discussão e troca de ideias com os colegas é bem-vinda e
-estimulada, mas cada aluno/dupla deve ter seu próprio trabalho.
+estimulada, mas cada dupla/trio deve ter seu próprio trabalho.
+**Se você preferir pode fazer individual, mas lembre-se que os critérios de correção
+serão extamente os mesmos.**
 
 Trabalhos muito semelhantes receberão nota 0, independente de quem
 copiou quem. E claro, trabalhos semelhantes aos de outras pessoas ou
@@ -155,8 +157,8 @@ seguintes itens:
 2. Todo o programa fonte, com makefiles e bibliotecas necessárias para a
    compilação e execução do programa;
 3. O arquivo executável do jogo;
-4. Um arquivo README.doc contendo (a) instruções para a compilação e execução, e
-   (b) a lista de itens adicionais implementados em seu jogo;
+4. Um arquivo README.doc contendo (a) nome dos integranes do grupo, (b) instruções para a compilação e execução, e
+   (c) a lista de itens adicionais implementados em seu jogo;
 5. Um link para um vídeo curto (40 a 80s) no YouTube mostrando seu jogo
    implementado. Faça um vídeo curto!
 
