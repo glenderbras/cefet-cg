@@ -157,7 +157,7 @@ seguintes itens:
 3. O arquivo executável do jogo;
 4. Um arquivo README.doc contendo (a) instruções para a compilação e execução, e
    (b) a lista de itens adicionais implementados em seu jogo;
-5. Um link para um vídeo curto (30 a 60s) no YouTube mostrando seu jogo
+5. Um link para um vídeo curto (40 a 80s) no YouTube mostrando seu jogo
    implementado. Faça um vídeo curto!
 
 Qualquer dúvida, entre em contato com o professor.
