@@ -52,7 +52,6 @@ implementar algumas das funcionalidades adicionais. Essas funcionalidades
 serão avaliadas de acordo com a **dificuldade de implementação**, o
 **efeito obtido** dentro do jogo e a **qualidade da implementação**.
 Implementando-as, você pode obter até **125%** do valor total do trabalho! :3
-
 **A porcentagem referente aos itens extras implementados será calculada sobre a pontuação que você obteve nos itens básicos.**
 
 Exemplos de funcionalidades com suas respectivas pontuações **máximas** são
@@ -144,7 +143,7 @@ Outros descuidos também o farão **perder pontos no trabalho**, como:
   a seguir);
 - Baixa legibilidade/organização do código;
 - Baixa qualidade da implementação;
-- Entregar fora do prazo. Cada dia de atraso penaliza sua nota final em 5% 
+- Entregar fora do prazo: Cada dia de atraso penaliza sua nota final em 5% 
 até o 7º dia. Após 7 dias de atraso seu trabalho vale apenas metade dos pontos.
 
 ## O que deve ser entregue
