@@ -129,12 +129,11 @@ integralmente pelos integrantes. Se recursos de terceiros forem usados
 documentação. A discussão e troca de ideias com os colegas é bem-vinda e
 estimulada, mas cada dupla/trio deve ter seu próprio trabalho.
 **Se você preferir pode fazer individual, mas lembre-se que os critérios de correção
-serão extamente os mesmos.**
+serão exatamente os mesmos.**
 
 Trabalhos muito semelhantes receberão nota 0, independente de quem
 copiou quem. E claro, trabalhos semelhantes aos de outras pessoas ou
-retirados da Internet, também receberão nota 0. Além da nota redonda,
-eles serão encaminhados ao colegiado para apreciação.
+retirados da Internet, também receberão nota 0.
 
 Outros descuidos também o farão **perder pontos no trabalho**, como:
 
