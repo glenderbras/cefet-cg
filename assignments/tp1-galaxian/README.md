@@ -156,7 +156,7 @@ seguintes itens:
 2. Todo o programa fonte, com makefiles e bibliotecas necessárias para a
    compilação e execução do programa;
 3. O arquivo executável do jogo;
-4. Um arquivo README.doc contendo (a) nome dos integranes do grupo, (b) instruções para a compilação e execução, e
+4. Um arquivo README contendo: (a) nome dos integranes do grupo, (b) instruções para a compilação e execução, e
    (c) a lista de itens adicionais implementados em seu jogo;
 5. Um link para um vídeo curto (40 a 80s) no YouTube mostrando seu jogo
    implementado. Faça um vídeo curto!
