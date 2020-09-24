@@ -59,10 +59,10 @@ mostrados a seguir:
   1. :star: **Texturas animadas (até 12%)**: crie animações para as texturas dos
      inimigos e personagem. **#dikentinha**: busque por _spritesheet_ no Google.
      - Jogador parado ou andando (**2%**)
-     - Jogador explodindo (**2%**)
+     - Jogador explodindo (**3%**)
      - Inimigos andando (**2%**)
      - Inimigos explodindo (**3%**)
-     - Outros objetos ou cenário animados (**3%**)
+     - Outros objetos ou cenário animados (**2%**)
   1. **Fundo lindão e com movimento/animação (até 6%)**: em vez de um fundo
      com uma simples cor, colocar imagens ou até umas estrelinhas
      piscando aleatoriamente
