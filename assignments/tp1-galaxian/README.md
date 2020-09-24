@@ -27,7 +27,7 @@ o jogo se encerra também. Não é necessário implementar o "modo rasante",
 em que uma ou um conjunto de naves adjacentes se destaca para atacar o jogador.
 
 O uso de **texturas** neste trabalho é obrigatório. Utilize-as para os aliens
-e nave do jogador e, se quiser, para o cenário também.
+e nave do jogador ou para o cenário ou, melhor ainda: para os três \o/.
 
 Para fins de colisão, os inimigos, tiros e o personagem podem ser considerados
 todos retangulares ou todos circulares.
@@ -36,12 +36,9 @@ Os seguintes comandos devem ser implementados:
 
 - <kbd>←</kbd> e <kbd>→</kbd> controlam a navinha do jogador;
 - <kbd>space</kbd> dá um tiro para cima;
-- Clicando na tecla <kbd>p</kbd>, o jogo deve **pausar/continuar**;
-- Clicando em <kbd>r</kbd>, o jogo deve ser **reiniciado**;
+- Clicando na tecla <kbd>p</kbd>, o jogo deve **pausar/continuar**; (opcional, mas indicado)
+- Clicando em <kbd>r</kbd>, o jogo deve ser **reiniciado**; (opcional, mas indicado)
 - Clicando em <kbd>esc</kbd>, o jogo deve ser **encerrado**.
-
-**Atenção:** uma mensagem de confirmação deve ser exibida para as ações de
-reiniciar e encerrar o jogo.
 
 
 A lógica do jogo implementada, o uso de textura, a movimentação dos inimigos,
@@ -59,19 +56,19 @@ Exemplos de funcionalidades com suas respectivas pontuações **máximas** são
 mostrados a seguir:
 
 - Relativas a **texturas e gráficos**:
-  1. :star: **Texturas animadas (até 10%)**: crie animações para as texturas dos
+  1. :star: **Texturas animadas (até 12%)**: crie animações para as texturas dos
      inimigos e personagem. **#dikentinha**: busque por _spritesheet_ no Google.
      - Jogador parado ou andando (**2%**)
      - Jogador explodindo (**2%**)
      - Inimigos andando (**2%**)
-     - Inimigos explodindo (**2%**)
-     - Outros objetos ou cenário animados (**2%**)
-  1. **Fundo lindão e com movimento/animação (até 4%)**: em vez de um fundo
+     - Inimigos explodindo (**3%**)
+     - Outros objetos ou cenário animados (**3%**)
+  1. **Fundo lindão e com movimento/animação (até 6%)**: em vez de um fundo
      com uma simples cor, colocar imagens ou até umas estrelinhas
      piscando aleatoriamente
   1. :bomb: **Efeito de partículas (até 12%)** para simular o fogo/explosão etc.
 - Relativas ao **jogo**:
-  1. **Rasante (7-10%)**: faça com que inimigos possam dar o rasante no jogador
+  1. **Rasante (8-12%)**: faça com que inimigos possam dar o rasante no jogador
      eventualmente. Pode ser individualmente ou em grupo (vale mais).
      Ele(s) deve(m) seguir uma trajetória em curva e você pode usar uma
      curva de Bézier para isso. Se ele chegar no canto inferior da tela,
@@ -86,7 +83,7 @@ mostrados a seguir:
      que podem ser "deixados" quando um inimigo é derrotado. Por exemplo, pode
      ter itens que deixam a nave atirar mais que um tiro ao mesmo tempo, ou que
      exploda uma nave e as adjacentes, ou que deixe os inimigos mais lentos etc.
-  1. :star: **Pontuação (4%)**: determine uma forma de pontuar o jogador, por exemplo,
+  1. :star: **Pontuação (5%)**: determine uma forma de pontuar o jogador, por exemplo,
      cada inimigo vale uma quantidade de pontos dependendo do seu tipo e
      da circunstância (eg, quanto mais próximo do chão, mais pontos).
      - O placar deve ser exibido em uma _head-up display_ (**HUD**)
@@ -98,10 +95,10 @@ mostrados a seguir:
      possível jogar com o mouse.
 - Outras funcionalidades:
   1. :star: **Sons (até 12%)**. Colocar efeitos sonoros e música de fundo no seu jogo
-  1. :star: **Manter razão de aspecto (4%)**: faça com que a razão de aspecto do jogo
+  1. :star: **Manter razão de aspecto (6%)**: faça com que a razão de aspecto do jogo
      seja sempre mantida, independente das dimensões da janela, mas que o
      jogo ocupe a maior área possível da janela e ficando centralizado
-  1. :star: **Telas (até 10%)**: faça um jogo completo, ou seja, implemente telas de
+  1. :star: **Telas (até 12%)**: faça um jogo completo, ou seja, implemente telas de
      _splash screen_, menu inicial, instruções, créditos, opções,
      _game over_, etc
   1. **Implementação criativa (?%)**: qualquer implementação que não fuja
