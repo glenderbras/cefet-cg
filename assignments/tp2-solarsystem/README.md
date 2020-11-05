@@ -11,7 +11,7 @@ vistos em sala de aula. E também nos divertir.
 Esse trabalho pode ser feito em dupla, e como funcionalidade básica,
 valendo 90% da nota, deve ter os seguintes itens:
 
-- **Vídeo** curto (30s-60s), que pode ser entregue 1 semana depois
+- **Vídeo** curto (30s-60s).
 - **Mundo**:
   1. Deve haver objeto no centro (eg, sol) e, ao seu redor, devem
      orbitar outros objetos semelhantes (eg, planetas)
