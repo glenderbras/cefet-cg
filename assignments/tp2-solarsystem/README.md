@@ -4,11 +4,10 @@
 
 Neste trabalho, vamos criar um sistema estelar. Ou um modelo atômico. Ou
 um aquário em que os peixes girando ao redor dos outros. Nosso objetivo é
-praticar os conceitos de projeção perspectiva, iluminação dinâmica,
-modelagem hierárquica, sombreamento, modelagem e efeitos visuais
+praticar os conceitos de projeção perspectiva, iluminação, sombreamento e efeitos visuais
 vistos em sala de aula. E também nos divertir.
 
-Esse trabalho pode ser feito em dupla, e como funcionalidade básica,
+Esse trabalho pode ser feito em duplas ou trios, e como funcionalidade básica,
 valendo 90% da nota, deve ter os seguintes itens:
 
 - **Vídeo** curto (30s-60s).
@@ -53,13 +52,13 @@ extras com suas respectivas pontuações **máximas**:
   1. **Modo de órbitas visíveis (8%)**: com o pressionar de uma tecla
      (<kbd>o</kbd>), torne possível mostrar/esconder a trajetória de
      todos os elementos orbitantes
-  1. :star: **[Plano orbital][plano-orbital] (4%)**: com o pressionar
+  1. :star: **[Plano orbital][plano-orbital] (8%)**: com o pressionar
      de uma tecla (<kbd>p</kbd>), faça mostrar/esconder um plano "infinito"
      que corta o objeto principal (sol) e a maioria dos outros (ou todos)
      bem no meio.
      - Esse plano não deve ter 4 vértices - ele deve ser subdivido em vários
        triângulos (`GL_TRIANGLE_STRIP` fica show)   
-     1. :bomb: **Deformação do espaço-tempo (+7%)**: faça o plano apresentar a
+     1. :bomb: **Deformação do espaço-tempo (+10%)**: faça o plano apresentar a
         deformação gravitacional no tecido espaço-tempo provocado por objetos
         com grande massa (digamos, a estrela e mais alguns maiores)
         ![Uma imagem mostrando três esferas em cima de um tecido plano e esticado, sendo deformado por elas](images/deformacao-espaco-tempo.jpg)
