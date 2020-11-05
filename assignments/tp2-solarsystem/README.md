@@ -9,7 +9,7 @@ modelagem hierárquica, sombreamento, modelagem e efeitos visuais
 vistos em sala de aula. E também nos divertir.
 
 Esse trabalho pode ser feito em dupla, e como funcionalidade básica,
-valendo 70% da nota, deve ter os seguintes itens:
+valendo 90% da nota, deve ter os seguintes itens:
 
 - **Vídeo** curto (30s-60s), que pode ser entregue 1 semana depois
 - **Mundo**:
@@ -17,37 +17,24 @@ valendo 70% da nota, deve ter os seguintes itens:
      orbitar outros objetos semelhantes (eg, planetas)
      - Esses objetos podem ser desenhados usando sólidos GLU e GLUT
      - Eles devem possuir uma rotação em torno do seu próprio eixo
-  1. Devem haver objetos orbitando os que estão orbitando o principal
-     (eg, satélites naturais)
-     - Esses objetos devem possuir uma rotação em torno do seu próprio eixo
-       também
-  1. Todos (ou a grande maioria) dos objetos devem conter texturas,
-     com materiais devidamente configurados
+  1. Pelo menos o objeto central deve conter textura,
+     com materiais devidamente configurados. A Utiização de textura
+     nos outros objetos recomendável, mas opcional.
   1. Um dos objetos que orbitam os que orbitam (satélites) é especial e
      deve ter uma forma única (eg, um satélite artificial ao redor de
      um planeta)
 - **Câmera**:
   1. Você deve usar projeção perspectiva via `glFrustum` ou `gluPerspective`
-  1. Devem haver 3 câmeras e o usuário pode alternar entre elas via uma tecla
-     (eg, <kbd>c</kbd> ou [<kbd>1</kbd>, <kbd>2</kbd>, <kbd>3</kbd>]):
-     1. Visão de cima, enxergando todos os elementos do sistema
-     1. Visão "diagonal" e que pode ser alterada via setinhas do teclado
-        (<kbd>⬆️</kbd>, <kbd>➡️</kbd>, <kbd>⬇️</kbd>, <kbd>⬅️</kbd>) fazendo
-        com que a câmera, sem sair de onde está, altere para onde ela
-        está olhando
-     1. Câmera na posição logo atrás do objeto especial, olhando para o
-        objeto em que ele orbita. Nesse modo, ao pressionar as setinhas
-        <kbd>⬆️</kbd> e <kbd>⬇️</kbd> a câmera deve se aproximar do planeta
-        ou se afastar (respectivamente)
+  1. Devem haver 2 câmeras e o usuário pode alternar entre elas via uma tecla
+     (eg, <kbd>c</kbd> ou [<kbd>1</kbd>, <kbd>2</kbd>]):
+     1. Visão de cima e visão lateral.
 - **Gráficos**:
   1. Você deve usar o modelo de
      [iluminação do OpenGL, devidamente configurado][lighting]
      - Basta que sua cena tenha 1
-       [fonte de luz pontual][lighting-directional] e que todos objetos
-       possuam um material
+       [fonte de luz pontual][lighting-directional]
   1. Deve ser possível ativar/desativar o modelo de iluminação a partir de uma
      tecla (no caso de sistema estelar, apenas a estrela iluminaria)
-  1. Usar texturas para todos os objetos (ou a grande maioria)
 
 Para se obter o restante dos pontos do trabalho (ou até mesmo mais pontos
 extras, até um limite de 125% da pontuação original) funcionalidades adicionais
@@ -57,13 +44,13 @@ trabalho e a **qualidade da implementação**. Exemplos de funcionalidades
 extras com suas respectivas pontuações **máximas**:
 
 - Relativas ao **Mundo**:
-  1. :bomb::bomb: **_Skybox_ (até 10%)**: se considerarmos que nosso mundo
+  1. :bomb::bomb: **_Skybox_ (até 12%)**: se considerarmos que nosso mundo
      está definido dentro de um cubo, podemos colocar uma imagem de textura
      em cada face interna (6) que represente o horizonte naquela direção. Veja
      [exemplos de texturas de _skyboxes_][skybox] e nossa aula sobre
      [efeitos visuais][visual-fx]. Repare que o cubo _Skybox_ acompanha
      a posição, ou seja, não é possível se aproximar (muito menos sair) do cubo
-  1. **Modo de órbitas visíveis (5%)**: com o pressionar de uma tecla
+  1. **Modo de órbitas visíveis (8%)**: com o pressionar de uma tecla
      (<kbd>o</kbd>), torne possível mostrar/esconder a trajetória de
      todos os elementos orbitantes
   1. :star: **[Plano orbital][plano-orbital] (4%)**: com o pressionar
@@ -77,7 +64,7 @@ extras com suas respectivas pontuações **máximas**:
         com grande massa (digamos, a estrela e mais alguns maiores)
         ![Uma imagem mostrando três esferas em cima de um tecido plano e esticado, sendo deformado por elas](images/deformacao-espaco-tempo.jpg)
 - Relativas aos **Objetos do sistema**:
-  1. :bomb: **Modelos no formato .obj (até 10%)**: em vez de usar os
+  1. :bomb: **Modelos no formato .obj (até 12%)**: em vez de usar os
      sólidos da GLU/GLUT, modele um objeto \*simples\* usando um _software_
      CAD, salve-o num formato \*simples\* (_e.g._, `.obj`) e carregue-o no
      seu programa. Há alguns tutoriais disponíveis nas _interwebs_ sobre
@@ -87,12 +74,12 @@ extras com suas respectivas pontuações **máximas**:
      do Nate Robins que possuem código para carregar arquivos `.obj`.
      - Apenas carregar modelos prontos (6%)
      - Modelar e carregar modelos (10%)
-  1. **Cinturão de asteróides (3% ou 6%)**: crie o cinturão de asteróides que
+  1. **Cinturão de asteróides (8% ou 12%)**: crie o cinturão de asteróides que
      separa os planetas pequenos dos grandes (no caso do Sistema Solar). O
      asteróide não deve ter a mesma forma que os planetas
      - Vários asteróides com pelo menos 3 formatos diferentes (6%)
      - Vários asteróides, mas com mesmo formato (3%)
-  1. **Órbitas não circulares (4%)**: crie órbitas elípticas em vez de apenas
+  1. **Órbitas não circulares (8%)**: crie órbitas elípticas em vez de apenas
      circulares
      1. **Órbitas não-coplanares (+2%)**: faça com que algum(ns) objeto(s)
         tenha(m) órbitas não-coplanares com o plano orbital da maioria
@@ -101,7 +88,7 @@ extras com suas respectivas pontuações **máximas**:
         o rastro que os cometas "deixam para trás" quando se aproximam de
         uma estrela (e esquentam, liberando gases). Falaremos disso na
         aula de [efeitos visuais][visual-fx]
-  1. :bomb: **Objetos selecionáveis (8%)**: torne possível que o usuário
+  1. :bomb: **Objetos selecionáveis (12%)**: torne possível que o usuário
      interaja com alguns objetos **usando o mouse**. Por exemplo, faça com
      que o nome do objeto seja escrito na tela quando a pessoa clicar nele.
      Em 3D isso é mais complicado, porque recebemos (x,y) no espaço da janela
@@ -109,38 +96,26 @@ extras com suas respectivas pontuações **máximas**:
      verificar se houve colisão. Veja uma maneira usando `gluUnProject(...)`
      e _ray casting_ ([vídeo][3d-picking-video],
      [explicação][3d-picking-explanation])
-  1. :moon::star: **Anéis planetários (4%)**: coloque os anéis ao redor dos
+  1. :moon::star: **Anéis planetários (10%)**: coloque os anéis ao redor dos
      planetas gigantes gasosos (Saturno e Júpiter) e gelados (Urano e Netuno)
-  1. :moon: **Atmosferas (4%)**: desenhe o que seria a atmosfera de algum
+  1. :moon: **Atmosferas (10%)**: desenhe o que seria a atmosfera de algum
      planeta. Por exemplo, para a Terra, pode-se desenhar uma esfera com
      a textura que mostra sua superfície, e outra esfera, um pouco maior,
      com alguma transparência, com textura das nuvens
 - Relativas à **Câmera**:
-  1. **_Tour_ entre os objetos (7%)**: crie uma 4ª câmera que, ao pressionar
+  1. **_Tour_ entre os objetos (12%)**: crie uma 3ª câmera que, ao pressionar
      a <kbd>barra de espaço</kbd>, é teletransportada para visualizar apenas
      um corpo celeste, ocupando quase que a tela toda. Apertando
      novamente, deve-se visitar o próximo e daí por diante
-     - **Anime o deslocamento da câmera (+4%)** em vez de teletransportá-la
-     - Escreva na tela **dados sobre o objeto (+4%)**
-- Relativas a **Recursos do OpenGL**:
-  1. :bomb: **Usar VBOs e VAOs (até 12%)** em vez de `glVertex(...)`: para ter
-     um desempenho altíssimo e fazer as coisas do jeito do OpenGL 3+
-     - Obs: os sólidos GLU/GLUT usam `glVertex`, logo, são incompatíveis com
-       este adicional (você não pode usá-los)
-     - A nota é variável de acordo com a variedade do formato dos objetos
-  1. :bomb::bomb: **Criar _shaders_ (4%, 6% ou 10%)**: usando GLSL (um _vertex_ e um
-     _fragment shader_)
-     - Modelo de iluminação de Phong, sombreamento Gouraud (3%)
-     - Modelo de iluminação de Phong, sombreamento também (5%)
-     - Modelo igual ao anterior, usando textura para _bump_ ou _normal mapping_
-       (10%)
+     - **Anime o deslocamento da câmera (+6%)** em vez de teletransportá-la
+     - Escreva na tela **dados sobre o objeto (+6%)**
 - Outros adicionais:
-  1. :star: **Reshape (3%)**: permitir o redimensionamento da janela
+  1. :star: **Reshape (8%)**: permitir o redimensionamento da janela
      de visualização sem perda da razão de aspecto (sem que haja distorção
      de achatamento/alongamento)
-  1. :star: **Música (3%)**: você pode incluir uma música de fundo para
+  1. :star: **Música (8%)**: você pode incluir uma música de fundo para
      seu sistema estelar (ou de outra coisa)
-  1. :moon: **Fidedignidade (10%)**: em vez de chutar parâmetros de tamanhos,
+  1. :moon: **Fidedignidade (12%)**: em vez de chutar parâmetros de tamanhos,
      distâncias, inclinação etc., use os valores reais
      ([tamanhos relativos no sistema solar][tamanhos-relativos-planetas]).
      Você pode usar como medida, por exemplo, a _unidade astronômica_,
