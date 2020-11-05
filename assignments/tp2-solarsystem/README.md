@@ -17,11 +17,8 @@ valendo 90% da nota, deve ter os seguintes itens:
      - Esses objetos podem ser desenhados usando sólidos GLU e GLUT
      - Eles devem possuir uma rotação em torno do seu próprio eixo
   1. Pelo menos o objeto central deve conter textura,
-     com materiais devidamente configurados. A Utiização de textura
-     nos outros objetos recomendável, mas opcional.
-  1. Um dos objetos que orbitam os que orbitam (satélites) é especial e
-     deve ter uma forma única (eg, um satélite artificial ao redor de
-     um planeta)
+     com materiais devidamente configurados. A Utilização de textura
+     nos outros objetos é recomendável, mas não obrigatório.
 - **Câmera**:
   1. Você deve usar projeção perspectiva via `glFrustum` ou `gluPerspective`
   1. Devem haver 2 câmeras e o usuário pode alternar entre elas via uma tecla
