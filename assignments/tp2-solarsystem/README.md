@@ -138,12 +138,23 @@ Legenda dos ícones:
 
 ## Instruções gerais
 
-O trabalho pode ser feito individualmente ou em duplas e deve ser produzido
-integralmente pelos aluno ou dupla. Podem discutir idéias com outros colegas,
-mas cada aluno/dupla deve ter a sua implementação independente dos demais.
-**Trabalhos muito semelhantes receberão notas muito semelhantes (iguais a 0)**,
-independente de quem copiou de quem. Trabalhos semelhantes aos de outras
-pessoas (ex-alunos, pessoas na Internet) também receberão nota 0.
+O seu código deve estar comentado e, principalmente, organizado: ao
+construí-lo, pense que outra pessoa lerá o código e você não estará lá para
+explicar seu raciocínio. Portanto, organize-o! Também não é necessário
+comentar o código inteiro, mas o faça quando sentir necessidade de uma
+explicação adicional à sua lógica.
+
+Seu trabalho pode ser feito em duplas ou trios e deve ser produzido
+integralmente pelos integrantes. Se recursos de terceiros forem usados
+(e.g., imagens, músicas, efeitos sonoros), coloque links para elas na
+documentação. A discussão e troca de ideias com os colegas é bem-vinda e
+estimulada, mas cada dupla/trio deve ter seu próprio trabalho.
+**Se você preferir pode fazer individual, mas lembre-se que os critérios de correção
+serão exatamente os mesmos.**
+
+Trabalhos muito semelhantes receberão nota 0, independente de quem
+copiou quem. E claro, trabalhos semelhantes aos de outras pessoas ou
+retirados da Internet, também receberão nota 0.
 
 
 ## O que faz perder nota
@@ -155,15 +166,8 @@ Alguns descuidos podem fazer com que sua nota fique abaixo do esperado:
 - Ausência de itens da especificação obrigatória
 - Baixa legibilidade do código
 - Baixa qualidade da implementação
-- Atraso na entrega. Cada dia de atraso reduz o valor máximo de nota da
- maneira abaixo. Considere `x` como dias de atraso e `y` a penalidade
- percentual na nota:
-
-![Fórmula de penalidade por atraso](../../images/penalidade-por-atraso.png)
-- Isso implica que 1 ou 2 dias de atraso são pouco penalizados
-- E após 5 dias de atraso, o trabalho vale 0
-- _Seeing is believing_:
-  https://www.google.com.br/search?q=y%3D(2%5E(x-2)%2F0.16)%2Cy%3D100
+- Entregar fora do prazo: Cada dia de atraso penaliza sua nota final em 5% 
+até o 7º dia. Após 7 dias de atraso seu trabalho vale apenas metade dos pontos.
 
 
 ## O que deve ser **entregue**
@@ -173,10 +177,8 @@ Deve ser entregue **um arquivo .tar.gz ou .zip** via **Moodle** contendo:
  1. Todo o programa fonte, com os _Makefiles_ e bibliotecas necessárias
     para a compilação e execução do programa
  1. O arquivo executável
- 1. Um arquivo **README** contendo:
-    - Instruções para **compilação e execução**
-    - **Lista de itens adicionais** que seu jogo está pleiteando
-      (via formulário que será enviados oportunamente)
+ 1. Um arquivo README contendo: (a) nome dos integranes do grupo, (b) instruções para a compilação e execução, e
+   (c) a lista de itens adicionais implementados em seu jogo;
  1. O link para um vídeo de 30-60s no YouTube mostrando as opções implementadas
 
 Qualquer dúvida, entre em contato comigo. Ou acrescente a sua interpretação no
