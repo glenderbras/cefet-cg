@@ -353,9 +353,9 @@ void inicializa() {
 <!--# TP1: **Galaxian**-->
 
 
-<!--> Um dos primeiros jogos que surgiu se chamava Galaxian.-->
-<!--> Nele, o jogador pilota uma nave que fica na parte de baixo-->
-<!--> da tela e, com ela, se defende de um ataque alienígena.-->
+<!-- Um dos primeiros jogos que surgiu se chamava Galaxian.-->
+<!-- Nele, o jogador pilota uma nave que fica na parte de baixo-->
+<!-- da tela e, com ela, se defende de um ataque alienígena.-->
 
 
 <!--![](../../images/galaxian-original.png) <!-- {.push-right style="width: 210px; margin-left: 1em"} -->
