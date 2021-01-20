@@ -344,9 +344,9 @@ void inicializa() {
 
 ---
 <!-- { "layout": "centered", "slideHash": "tp1" } -->
-# Trabalho Prático 1 \o/
+<!--# Trabalho Prático 1 \o/
 
-_A wild TP1 appears..._
+<!--_A wild TP1 appears..._
 
 ---
 <!-- {"layout": "2-column-content"} -->
