@@ -36,19 +36,19 @@ Os seguintes comandos devem ser implementados:
 
 - <kbd>←</kbd> e <kbd>→</kbd> controlam a navinha do jogador;
 - <kbd>space</kbd> dá um tiro para cima;
-- Clicando na tecla <kbd>p</kbd>, o jogo deve **pausar/continuar**; (opcional, mas indicado)
-- Clicando em <kbd>r</kbd>, o jogo deve ser **reiniciado**; (opcional, mas indicado)
+- Clicando na tecla <kbd>p</kbd>, o jogo deve **pausar/continuar**;
+- Clicando em <kbd>r</kbd>, o jogo deve ser **reiniciado**; 
 - Clicando em <kbd>esc</kbd>, o jogo deve ser **encerrado**.
 
 
 A lógica do jogo implementada, o uso de textura, a movimentação dos inimigos,
 os tiros (jogador e inimigos), cálculo de colisões, a interação do teclado
-e um vídeo equivalem a um total de **90%** da nota do trabalho.
+e um vídeo equivalem a um total de **80%** da nota do trabalho.
 Para conseguir mais pontos, você pode
 implementar algumas das funcionalidades adicionais. Essas funcionalidades
 serão avaliadas de acordo com a **dificuldade de implementação**, o
 **efeito obtido** dentro do jogo e a **qualidade da implementação**.
-Implementando-as, você pode obter até **125%** do valor total do trabalho! :3
+Implementando-as, você pode obter até **115%** do valor total do trabalho! :3
 
 **A porcentagem referente aos itens extras implementados será calculada sobre a pontuação que você obteve nos itens básicos.**
 
