@@ -50,7 +50,7 @@ extras com suas respectivas pontuações **máximas**:
      (<kbd>o</kbd>), torne possível mostrar/esconder a trajetória de
      todos os elementos orbitantes
   1. :star: **[Satélites naturais] (10%)**: Criar objetos orbitando os que estão orbitando o principal (eg, satélites naturais)
-     - - Esses objetos devem possuir uma rotação em torno do seu próprio eixo também 
+     - Esses objetos devem possuir uma rotação em torno do seu próprio eixo também 
   1. :star: **[Plano orbital][plano-orbital] (6%)**: com o pressionar
      de uma tecla (<kbd>p</kbd>), faça mostrar/esconder um plano "infinito"
      que corta o objeto principal (sol) e a maioria dos outros (ou todos)
