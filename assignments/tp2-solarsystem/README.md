@@ -46,10 +46,10 @@ extras com suas respectivas pontuações **máximas**:
      [exemplos de texturas de _skyboxes_][skybox] e nossa aula sobre
      [efeitos visuais][visual-fx]. Repare que o cubo _Skybox_ acompanha
      a posição, ou seja, não é possível se aproximar (muito menos sair) do cubo
-  1. **Modo de órbitas visíveis (8%)**: com o pressionar de uma tecla
+  1. **Modo de órbitas visíveis (6%)**: com o pressionar de uma tecla
      (<kbd>o</kbd>), torne possível mostrar/esconder a trajetória de
      todos os elementos orbitantes
-  1. :star: **[Plano orbital][plano-orbital] (8%)**: com o pressionar
+  1. :star: **[Plano orbital][plano-orbital] (6%)**: com o pressionar
      de uma tecla (<kbd>p</kbd>), faça mostrar/esconder um plano "infinito"
      que corta o objeto principal (sol) e a maioria dos outros (ou todos)
      bem no meio.
@@ -70,12 +70,12 @@ extras com suas respectivas pontuações **máximas**:
      do Nate Robins que possuem código para carregar arquivos `.obj`.
      - Apenas carregar modelos prontos (6%)
      - Modelar e carregar modelos (10%)
-  1. **Cinturão de asteróides (8% ou 12%)**: crie o cinturão de asteróides que
+  1. **Cinturão de asteróides (5% ou 8%)**: crie o cinturão de asteróides que
      separa os planetas pequenos dos grandes (no caso do Sistema Solar). O
      asteróide não deve ter a mesma forma que os planetas
-     - Vários asteróides com pelo menos 3 formatos diferentes (6%)
-     - Vários asteróides, mas com mesmo formato (3%)
-  1. **Órbitas não circulares (8%)**: crie órbitas elípticas em vez de apenas
+     - Vários asteróides com pelo menos 3 formatos diferentes (8%)
+     - Vários asteróides, mas com mesmo formato (5%)
+  1. **Órbitas não circulares (4%)**: crie órbitas elípticas em vez de apenas
      circulares
      1. **Órbitas não-coplanares (+2%)**: faça com que algum(ns) objeto(s)
         tenha(m) órbitas não-coplanares com o plano orbital da maioria
@@ -84,7 +84,7 @@ extras com suas respectivas pontuações **máximas**:
         o rastro que os cometas "deixam para trás" quando se aproximam de
         uma estrela (e esquentam, liberando gases). Falaremos disso na
         aula de [efeitos visuais][visual-fx]
-  1. :bomb: **Objetos selecionáveis (12%)**: torne possível que o usuário
+  1. :bomb: **Objetos selecionáveis (10%)**: torne possível que o usuário
      interaja com alguns objetos **usando o mouse**. Por exemplo, faça com
      que o nome do objeto seja escrito na tela quando a pessoa clicar nele.
      Em 3D isso é mais complicado, porque recebemos (x,y) no espaço da janela
@@ -92,26 +92,26 @@ extras com suas respectivas pontuações **máximas**:
      verificar se houve colisão. Veja uma maneira usando `gluUnProject(...)`
      e _ray casting_ ([vídeo][3d-picking-video],
      [explicação][3d-picking-explanation])
-  1. :moon::star: **Anéis planetários (10%)**: coloque os anéis ao redor dos
+  1. :moon::star: **Anéis planetários (6%)**: coloque os anéis ao redor dos
      planetas gigantes gasosos (Saturno e Júpiter) e gelados (Urano e Netuno)
-  1. :moon: **Atmosferas (10%)**: desenhe o que seria a atmosfera de algum
+  1. :moon: **Atmosferas (6%)**: desenhe o que seria a atmosfera de algum
      planeta. Por exemplo, para a Terra, pode-se desenhar uma esfera com
      a textura que mostra sua superfície, e outra esfera, um pouco maior,
      com alguma transparência, com textura das nuvens
 - Relativas à **Câmera**:
-  1. **_Tour_ entre os objetos (12%)**: crie uma 3ª câmera que, ao pressionar
+  1. **_Tour_ entre os objetos (8%)**: crie uma 3ª câmera que, ao pressionar
      a <kbd>barra de espaço</kbd>, é teletransportada para visualizar apenas
      um corpo celeste, ocupando quase que a tela toda. Apertando
      novamente, deve-se visitar o próximo e daí por diante
-     - **Anime o deslocamento da câmera (+6%)** em vez de teletransportá-la
-     - Escreva na tela **dados sobre o objeto (+6%)**
+     - **Anime o deslocamento da câmera (+4%)** em vez de teletransportá-la
+     - Escreva na tela **dados sobre o objeto (+4%)**
 - Outros adicionais:
-  1. :star: **Reshape (8%)**: permitir o redimensionamento da janela
+  1. :star: **Reshape (6%)**: permitir o redimensionamento da janela
      de visualização sem perda da razão de aspecto (sem que haja distorção
      de achatamento/alongamento)
   1. :star: **Música (8%)**: você pode incluir uma música de fundo para
      seu sistema estelar (ou de outra coisa)
-  1. :moon: **Fidedignidade (12%)**: em vez de chutar parâmetros de tamanhos,
+  1. :moon: **Fidedignidade (10%)**: em vez de chutar parâmetros de tamanhos,
      distâncias, inclinação etc., use os valores reais
      ([tamanhos relativos no sistema solar][tamanhos-relativos-planetas]).
      Você pode usar como medida, por exemplo, a _unidade astronômica_,
