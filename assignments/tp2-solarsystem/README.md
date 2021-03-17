@@ -7,8 +7,8 @@ um aquário em que os peixes girando ao redor dos outros. Nosso objetivo é
 praticar os conceitos de projeção perspectiva, iluminação, sombreamento e efeitos visuais
 vistos em sala de aula. E também nos divertir.
 
-Esse trabalho pode ser feito em duplas ou trios, e como funcionalidade básica,
-valendo 90% da nota, deve ter os seguintes itens:
+Esse trabalho pode ser feito em rupos de até 4 pessoas, e como funcionalidade básica,
+valendo 80% da nota, deve ter os seguintes itens:
 
 - **Vídeo** curto (30s-60s).
 - **Mundo**:
