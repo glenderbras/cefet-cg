@@ -49,6 +49,8 @@ extras com suas respectivas pontuações **máximas**:
   1. **Modo de órbitas visíveis (6%)**: com o pressionar de uma tecla
      (<kbd>o</kbd>), torne possível mostrar/esconder a trajetória de
      todos os elementos orbitantes
+  1. :star: **[Satélites naturais] (10%)**: Criar objetos orbitando os que estão orbitando o principal (eg, satélites naturais)
+     - - Esses objetos devem possuir uma rotação em torno do seu próprio eixo também 
   1. :star: **[Plano orbital][plano-orbital] (6%)**: com o pressionar
      de uma tecla (<kbd>p</kbd>), faça mostrar/esconder um plano "infinito"
      que corta o objeto principal (sol) e a maioria dos outros (ou todos)
@@ -59,8 +61,6 @@ extras com suas respectivas pontuações **máximas**:
         deformação gravitacional no tecido espaço-tempo provocado por objetos
         com grande massa (digamos, a estrela e mais alguns maiores)
         ![Uma imagem mostrando três esferas em cima de um tecido plano e esticado, sendo deformado por elas](images/deformacao-espaco-tempo.jpg)
- 1. :star: **[Satélites naturais] (10%)**: Criar objetos orbitando os que estão orbitando o principal (eg, satélites naturais)
-     - Esses objetos devem possuir uma rotação em torno do seu próprio eixo também 
 - Relativas aos **Objetos do sistema**:
   1. :bomb: **Modelos no formato .obj (até 12%)**: em vez de usar os
      sólidos da GLU/GLUT, modele um objeto \*simples\* usando um _software_
