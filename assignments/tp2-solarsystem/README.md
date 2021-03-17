@@ -59,6 +59,8 @@ extras com suas respectivas pontuações **máximas**:
         deformação gravitacional no tecido espaço-tempo provocado por objetos
         com grande massa (digamos, a estrela e mais alguns maiores)
         ![Uma imagem mostrando três esferas em cima de um tecido plano e esticado, sendo deformado por elas](images/deformacao-espaco-tempo.jpg)
+ 1. :star: **[Satélites naturais] (10%)**: Criar objetos orbitando os que estão orbitando o principal (eg, satélites naturais)
+     - Esses objetos devem possuir uma rotação em torno do seu próprio eixo também 
 - Relativas aos **Objetos do sistema**:
   1. :bomb: **Modelos no formato .obj (até 12%)**: em vez de usar os
      sólidos da GLU/GLUT, modele um objeto \*simples\* usando um _software_
@@ -68,14 +70,14 @@ extras com suas respectivas pontuações **máximas**:
      desenhá-los... aqui estão alguns: [tutorial 1][obj-tut-1],
      [tutorial 2][obj-tut-2], [tutorial 3][obj-tut-3]. Também há os exemplos
      do Nate Robins que possuem código para carregar arquivos `.obj`.
-     - Apenas carregar modelos prontos (6%)
-     - Modelar e carregar modelos (10%)
-  1. **Cinturão de asteróides (5% ou 8%)**: crie o cinturão de asteróides que
+     - Apenas carregar modelos prontos (8%)
+     - Modelar e carregar modelos (12%)
+  1. **Cinturão de asteróides (8% ou 10%)**: crie o cinturão de asteróides que
      separa os planetas pequenos dos grandes (no caso do Sistema Solar). O
      asteróide não deve ter a mesma forma que os planetas
-     - Vários asteróides com pelo menos 3 formatos diferentes (8%)
-     - Vários asteróides, mas com mesmo formato (5%)
-  1. **Órbitas não circulares (4%)**: crie órbitas elípticas em vez de apenas
+     - Vários asteróides com pelo menos 3 formatos diferentes (10%)
+     - Vários asteróides, mas com mesmo formato (8%)
+  1. **Órbitas não circulares (6%)**: crie órbitas elípticas em vez de apenas
      circulares
      1. **Órbitas não-coplanares (+2%)**: faça com que algum(ns) objeto(s)
         tenha(m) órbitas não-coplanares com o plano orbital da maioria
