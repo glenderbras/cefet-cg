@@ -27,7 +27,7 @@ o jogo se encerra também. Não é necessário implementar o "modo rasante",
 em que uma ou um conjunto de naves adjacentes se destaca para atacar o jogador.
 
 O uso de **texturas** neste trabalho é obrigatório. Utilize-as para os aliens
-e nave do jogador ou para o cenário ou, melhor ainda: para os três \o/.
+e nave do jogador e para o cenário.
 
 Para fins de colisão, os inimigos, tiros e o personagem podem ser considerados
 todos retangulares ou todos circulares.
