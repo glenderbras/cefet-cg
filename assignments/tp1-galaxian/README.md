@@ -120,7 +120,7 @@ explicar seu raciocínio. Portanto, organize-o! Também não é necessário
 comentar o código inteiro, mas o faça quando sentir necessidade de uma
 explicação adicional à sua lógica.
 
-Seu trabalho pode ser feito em duplas ou trios e deve ser produzido
+Seu trabalho pode ser feito em grupos de 2 a 4 pessoas e deve ser produzido
 integralmente pelos integrantes. Se recursos de terceiros forem usados
 (e.g., imagens, músicas, efeitos sonoros), coloque links para elas na
 documentação. A discussão e troca de ideias com os colegas é bem-vinda e
